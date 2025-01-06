@@ -1,0 +1,244 @@
+/* General Styles */
+.buddyguard-wrap {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.buddyguard-wrap h2 {
+    color: #23282d;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Tab Navigation */
+.buddyguard-nav-tab-wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0; /* Remove gap between tabs */
+}
+
+.buddyguard-nav-tab {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #2271b1;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background: #f1f1f1;
+    border-radius: 4px 4px 0 0;
+    transition: all 0.3s ease;
+    margin: 0; /* Remove margin between tabs */
+}
+
+.buddyguard-nav-tab.buddyguard-nav-tab-active {
+    background: #fff;
+    border-bottom: 1px solid #fff; /* Match the background color */
+}
+
+/* Optional: Add a small margin between tabs if needed */
+.buddyguard-nav-tab + .buddyguard-nav-tab {
+    margin-left: 5px; /* Adjust as needed */
+}
+
+/* Tab Content */
+.buddyguard-tab-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+.buddyguard-form-table {
+    width: 100%;
+}
+
+.buddyguard-form-table th {
+    padding: 15px 0;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.buddyguard-form-table td {
+    padding: 15px 0;
+}
+
+.buddyguard-form-table input[type="text"],
+.buddyguard-form-table textarea,
+.buddyguard-form-table select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.buddyguard-form-table textarea {
+    resize: vertical;
+}
+
+/* Button Container */
+.buddyguard-button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    align-items: center; /* Align buttons vertically */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+/* Style for both buttons */
+.buddyguard-button-container .button,
+.buddyguard-button-container #buddyguard-reset {
+    padding: 10px 20px; /* Same padding for both buttons */
+    border-radius: 4px; /* Same border radius */
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: none; /* Remove default border */
+    font-size: 14px; /* Same font size */
+    line-height: 1.5; /* Same line height */
+}
+
+/* Save Current Settings Button */
+.buddyguard-button-container .button {
+    background: #2271b1; /* Blue background */
+    color: #fff; /* White text */
+}
+
+.buddyguard-button-container .button:hover {
+    background: #1a5a8a; /* Darker blue on hover */
+}
+
+/* Reset All Settings Button */
+.buddyguard-button-container #buddyguard-reset {
+    background: #dc3545; /* Red background */
+    color: #fff; /* White text */
+}
+
+.buddyguard-button-container #buddyguard-reset:hover {
+    background: #c82333; /* Darker red on hover */
+}
+
+/* Plugin Uptime Counter */
+.buddyguard-plugin-uptime {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Created with Love Message */
+.buddyguard-created-with-love {
+    margin-top: 10px;
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+}
+
+.buddyguard-created-with-love a {
+    color: #2271b1;
+    text-decoration: none;
+}
+
+.buddyguard-created-with-love a:hover {
+    text-decoration: underline;
+}
+
+/* About Tab Styles */
+.buddyguard-about-tab {
+    display: flex;
+    gap: 20px;
+}
+
+.buddyguard-about-tab .buddyguard-left-column {
+    flex: 2;
+}
+
+.buddyguard-about-tab .buddyguard-right-column {
+    flex: 1;
+}
+
+.buddyguard-about-tab .buddyguard-info-box {
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.buddyguard-about-tab .buddyguard-info-box h3 {
+    color: #23282d;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.buddyguard-about-tab .buddyguard-info-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.buddyguard-about-tab .buddyguard-info-box ul li {
+    margin-bottom: 10px;
+}
+
+.buddyguard-about-tab .buddyguard-info-box ul li strong {
+    font-weight: 600;
+}
+
+.buddyguard-about-tab .buddyguard-donation-box {
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buddyguard-about-tab .buddyguard-donation-box h3 {
+    color: #23282d;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.buddyguard-about-tab .buddyguard-donation-box p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.buddyguard-about-tab .buddyguard-donation-box a {
+    background: #2271b1;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.buddyguard-about-tab .buddyguard-donation-box a:hover {
+    background: #1a5a8a;
+}
+
+.buddyguard-about-tab .buddyguard-ads-box {
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.buddyguard-about-tab .buddyguard-ads-box h3 {
+    color: #23282d;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.buddyguard-about-tab .buddyguard-ads-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.buddyguard-about-tab .buddyguard-ads-box p {
+    color: #666;
+    font-size: 12px;
+    margin-top: 10px;
+}
